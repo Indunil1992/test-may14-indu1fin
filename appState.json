@@ -12,7 +12,7 @@
         "filePath": "test-May14-indu1fin.js",
         "cursor": {
           "lineNumber": 3,
-          "column": 49
+          "column": 51
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -27,7 +27,16 @@
             "resourceName": "apigusEast1sachithraAPInameindunilqatstany",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "c62411ee-a800-4b7c-942c-65003394baf9": {
+            "id": "c62411ee-a800-4b7c-942c-65003394baf9",
+            "name": "Test event",
+            "functionId": "ece9bf3c-ca4b-49d1-b0bc-ab292d3a62f2",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -90,7 +99,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1589426221488
+    "lastSave": 1589426570150
   },
   "VCS_STATE": {
     "provider": "GitHub",
