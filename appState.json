@@ -12,7 +12,7 @@
         "filePath": "test-May14-indu1fin.js",
         "cursor": {
           "lineNumber": 3,
-          "column": 48
+          "column": 49
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -90,7 +90,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1589425394609
+    "lastSave": 1589426221488
   },
   "VCS_STATE": {
     "provider": "GitHub",
