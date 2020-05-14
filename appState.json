@@ -1,0 +1,102 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ece9bf3c-ca4b-49d1-b0bc-ab292d3a62f2": {
+        "id": "ece9bf3c-ca4b-49d1-b0bc-ab292d3a62f2",
+        "parent": null,
+        "name": "test-May14-indu1fin.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "test-May14-indu1fin.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 48
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "testMay14Indu1fin"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInameindunilqatstany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "ece9bf3c-ca4b-49d1-b0bc-ab292d3a62f2"
+    ],
+    "currentFileId": "ece9bf3c-ca4b-49d1-b0bc-ab292d3a62f2",
+    "resources": {
+      "apigusEast1sachithraAPInameindunilqatstany": {
+        "name": "apigusEast1sachithraAPInameindunilqatstany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/1111": "0rjsnt",
+            "/qa/indu": "vpyhm8",
+            "/qa": "w0smbw",
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "indunil/qa/tst",
+          "resourcePath": "/indunil/qa/tst",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test1s",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "test-May14-indu1fin",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1589425394609
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "test-may14-indu1fin",
+      "url": "https://github.com/Indunil1992/test-may14-indu1fin"
+    }
+  }
+}
